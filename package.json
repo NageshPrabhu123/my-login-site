@@ -1,0 +1,19 @@
+{
+  "name": "my-login-site",
+  "version": "1.0.0",
+  "description": "A login website with Neon database integration",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step needed'"
+  },
+  "keywords": ["login", "netlify", "neon"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.7.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
